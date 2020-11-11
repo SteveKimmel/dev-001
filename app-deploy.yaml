@@ -3,6 +3,7 @@ kind: AppsodyApplication
 metadata:
   creationTimestamp: null
   name: dev-001
+  namespace: dev-001
 spec:
   applicationImage: dev.local/dev-001
   createKnativeService: false
